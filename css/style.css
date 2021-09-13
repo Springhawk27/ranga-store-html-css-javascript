@@ -39,6 +39,7 @@ body {
 /* no foucus on input field */
 #input-field:focus{
   outline: none;
+  border: 1px solid #F57224;
 
 }
 /* search button */
