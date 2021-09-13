@@ -36,11 +36,16 @@ body {
   padding: 10px;
 } 
 
-/* no foucus on input field */
-#input-field:focus{
+/* hover effect on input field */
+#input-field:hover{
   outline: none;
   border: 1px solid #F57224;
+}
 
+/* foucus on input field */
+#input-field:focus{
+  outline: none;
+  border: 2px solid #F57224;
 }
 /* search button */
 .search-button {
@@ -50,10 +55,7 @@ body {
   border: none;
 }
 
-/* cart section */
-.cart-main-custom{
-  margin-top: 10px;
-}
+
 
 /* all the products section */
 #all-products {
@@ -69,14 +71,14 @@ body {
 .single-product {
   padding: 10px;
   padding-left: 20px;
-  transition: 0.6s;
+  transition: 0.5s;
 }
 
 /* hover effect on single product */
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 5px 5px 10px #F57224;
   border-radius: 10px;
-  border: 1px solid #26ABD4;
+  border: 1px solid #F57224;
 
 }
 
@@ -109,17 +111,30 @@ body {
   margin-right: 5px;
 }
 
+/* cart section */
+.cart-main-custom{
+  margin-top: 10px;
+}
+
 
 /* cart section */
 .cart {
   width: 350px;
   border: 1px solid #26ABD4;
+  background-color: whitesmoke;
   padding: 10px;
-  box-shadow: 10px 10px 20px gray;
+  box-shadow: -5px 5px 10px #26ABD4;
   border-radius: 5px;
   margin-right: 30px;
   position: fixed;
 }
+/* hover effect on cart */
+.cart:hover{
+  outline: none;
+  border: 1px solid #F57224;
+  box-shadow: -5px 5px 20px #F57224;
+}
+
 
 /* cart main */
 .cart-main {
