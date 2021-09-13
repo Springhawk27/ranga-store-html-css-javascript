@@ -13,19 +13,20 @@ const showProducts = (products) => {
     const div = document.createElement("div");
     div.classList.add("product");
 
+
     div.innerHTML = `<div class="single-product">
       <div>
       <img class="product-image" src=${image}></img>
       </div>
-      <h4>${product.title}</h4>    
+      <h4 class="title-text">${product.title}</h4>    
       <h4><span class="price-color">$ ${product.price}</span></h4>
       <p>Category: ${product.category}</p>
       <p>Total Reviews:  <i class="fas fa-users review-icon"></i> ${product.rating.count}</p>
       <p id="get-star"><span>Rating: <i class="fas fa-star star-icon-color"></i> ${product.rating.rate}</span></p> 
       <button onclick="addToCart(${product.id},${product.price})" id="addToCart-btn" class="buy-now btn btn-addtocart-custom">Add to Cart</button>
-      <button id="details-btn" class="btn btn-primary-custom">Details</button></div>
+      <button id="details-btn" class="btn btn-primary-custom">Details</button>
+      </div>
       `;
-
     document.getElementById("all-products").appendChild(div);
   }
 };

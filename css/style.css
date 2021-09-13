@@ -63,7 +63,7 @@ body {
   grid-template-columns: repeat(3, 1fr);
   width: 100%;
   margin: auto;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
@@ -88,8 +88,9 @@ body {
   width: 150px;
   height: 150px;
 }
-
-
+.title-text {
+  font-size: 16px;
+}
 
 /* star icon color */
 .star-icon-color {
