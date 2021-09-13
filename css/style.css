@@ -67,6 +67,7 @@ body {
   justify-content: center;
 }
 
+
 /* individual product */
 .single-product {
   padding: 10px;
@@ -76,7 +77,7 @@ body {
 
 /* hover effect on single product */
 .single-product:hover {
-  box-shadow: 5px 5px 10px #F57224;
+  box-shadow: 5px 5px 10px #eba475;
   border-radius: 10px;
   border: 1px solid #F57224;
 
